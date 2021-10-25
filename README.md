@@ -25,6 +25,8 @@ This bot is not meant to replace your daily standups outright. It is more of a h
 
 The bot will then create an entry in the `MongoDB` database for the server, create the text channel `#daily-standups` and send an introduction.
 
+Warning: if the bot does not have a valid MongoDB connection when it joins the server, you will have to kick it and re-invite it.
+
 ### Commands
 > The prefix for this bot is `!`
 
