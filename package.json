@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodefactoryio/standup-bot.git"
+    "url": "git+https://github.com/CryptoBlades/standup-bot.git"
   },
   "contributors": [
     "Navinn Ravindaran",
-    "NodeFactory"
+    "NodeFactory",
+    "seiyria <kyle@seiyria.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodefactoryio/standup-bot/issues"
+    "url": "https://github.com/CryptoBlades/standup-bot/issues"
   },
-  "homepage": "https://github.com/nodefactoryio/standup-bot#readme",
+  "homepage": "https://github.com/CryptoBlades/standup-bot#readme",
   "dependencies": {
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",

@@ -5,5 +5,5 @@ app:
   fullnameOverride: "standup-bot"
 
 image:
-  repository: ghcr.io/nodefactoryio/standup-bot
+  repository: ghcr.io/CryptoBlades/standup-bot
   pullPolicy: IfNotPresent

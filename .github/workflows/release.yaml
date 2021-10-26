@@ -20,8 +20,8 @@ jobs:
           login-server: ghcr.io
           username: ${{ secrets.CR_USER }}
           password: ${{ secrets.CR_WRITE_PAT }}
-      - run: docker build -t ghcr.io/nodefactoryio/standup-bot:${{ github.sha }} .
-      - run: docker push ghcr.io/nodefactoryio/standup-bot:${{ github.sha }}
+      - run: docker build -t ghcr.io/CryptoBlades/standup-bot:${{ github.sha }} .
+      - run: docker push ghcr.io/CryptoBlades/standup-bot:${{ github.sha }}
       - name: Package chart
         uses: WyriHaximus/github-action-helm3@v2
         with:

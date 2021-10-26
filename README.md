@@ -43,7 +43,7 @@ Warning: if the bot does not have a valid MongoDB connection when it joins the s
 
 
 ### Usage
-> Standup time is set to `10:30:00 PM EST` every weekday
+> Standup time is set to `10:00:00 PM CST` every weekday
 
 Anytime before the standup time, added members must DM the bot with the `reply` followed by their message. The bot will then upload this response to the database.    
 Come standup time, the bot will create an Embed with all collected member responses *and* will include a `Hooligans` section with mentions of members who did not participate.  
