@@ -82,12 +82,14 @@ mongoose
 
 mongoose.connection.once("open", () => console.log("mongoDB connected"));
 
+/*
 bot.once("ready", () => {
   console.log("Discord Bot Ready")
   if(Date.now() < (new Date()).setHours(10, 30)) {
     promptMembers();
   }
 });
+*/
 
 // when a user enters a command
 bot.on("message", async (message) => {
